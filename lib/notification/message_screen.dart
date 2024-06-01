@@ -13,7 +13,20 @@ class _MessageScreenState extends State<MessageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Message Screen' + widget.id),
+        title: const Text(
+          'Message Screen',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.red[500],
+      ),
+      body: Center(
+        child: Text(
+          "Message Screen".toUpperCase(),
+          style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.w600,
+              color: Colors.red[600]),
+        ),
       ),
     );
   }
