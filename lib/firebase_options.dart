@@ -51,19 +51,19 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZ-2_XwMtVKAEI0V-7X70QUh_pC9Q3BEk',
-    appId: '1:719476794894:android:39175e03bbc09ebc47fe5f',
-    messagingSenderId: '719476794894',
-    projectId: 'push-notification-54f57',
-    storageBucket: 'push-notification-54f57.appspot.com',
+    apiKey: 'AIzaSyDE2Y4afS31kXg0Bsgc-SgrSDKuS8y983A',
+    appId: '1:1077982660299:android:fc0b8a79dbc6ec27687d4e',
+    messagingSenderId: '1077982660299',
+    projectId: 'push-notification-56bad',
+    storageBucket: 'push-notification-56bad.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBxMYZIgq_khUAs1Deenyj225J_4tQuUDE',
-    appId: '1:719476794894:ios:85089dc33f5734ef47fe5f',
-    messagingSenderId: '719476794894',
-    projectId: 'push-notification-54f57',
-    storageBucket: 'push-notification-54f57.appspot.com',
+    apiKey: 'AIzaSyDrVDIhXw4nQJNx1Juq40PFf9wxqQt89aM',
+    appId: '1:1077982660299:ios:bf7f596e0fb60f09687d4e',
+    messagingSenderId: '1077982660299',
+    projectId: 'push-notification-56bad',
+    storageBucket: 'push-notification-56bad.appspot.com',
     iosBundleId: 'com.example.pushNotification',
   );
 
